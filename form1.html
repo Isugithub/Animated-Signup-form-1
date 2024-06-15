@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="form">
+<div class="s-up">
+<h3>Sign Up</h3>
+</div>
+<label for="fname">
+    <span>First Name:</span>
+    <input type="text" name="name" id="name" placeholder="Enter Name">
+</label>
+<div class="date">
+    <label for="dob">
+        <span>Date of Birth:</span>
+        <input type="number" name="date" id="date" min="1" max="31" step="1" placeholder="Date">
+        <input type="number" name="month" id="month" min="1" max="12" step="1" placeholder="Month">
+        <input type="number" name="year" id="year" min="1940" max="2006" step="1" placeholder="Year">
+    </label>
+    
+</div>
+<div class="gender">
+    <label for="gender"><span>Gender:</span> 
+        <input type="radio" name="" id="male" ><h3 class="m">Male</h3>
+        <input type="radio" name="" id="female"><h3 class="f">Female</h3>
+        </label>
+</div>
+<div class="country">
+<label for="country">
+    <span>Country:</span>
+</label>
+<select name="country" id="" size="2">
+    <option value="indea">Country</option>
+    <option value="indea">India</option>
+    <option value="sl">Sri Lanka</option>
+    <option value="paki">Pakistan</option>
+    <option value="indu">Indunesia</option>
+    <option value="chi">China</option>
+</select>
+</div>
+<div class="email">
+<label for="email">
+    <span>E-mail:</span>
+    <input type="text" name="email" id="email" placeholder="E-mail">
+</label>
+</div>
+<div class="passw">
+    <label for="pword">
+        <span>Password:</span>
+        <input type="password" name="email" id="email" >
+    </label>
+    </div>
+    <div class="confirmpassw">
+        <label for="conpword">
+            <span>Confirm Password:</span>
+            <input type="password" name="email" id="email" >
+        </label>
+        </div>
+        <div class="check">
+            <input type="checkbox" name="agree" id="agree">
+            <span style="color: white;opacity: 0.5;">I agree to the terms of use</span>
+        </div>
+        <div class="button">
+<button class="sub" type="submit">Submit</button>
+<button class="can" type="cancel">cancel</button>
+
+        </div>
+</form>
+</body>
+</html>
